@@ -1,6 +1,6 @@
 # Dear Invigilator
 To go to different pages please use the url.
-#t he different paths are as follows <br />
+# the different paths are as follows <br />
 path="/" <br />
 path="/welcomeTwo" <br />
 path="/register" <br />
