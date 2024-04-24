@@ -1,11 +1,11 @@
 # Dear Invigilator
 To go to different pages please use the url.
-#t he different paths are as follows 
-path="/" 
-path="/welcomeTwo" 
-path="/register" 
-path="/login" 
-path="/goals" 
-path="/calendar" 
-path="/chart"
+#t he different paths are as follows <br />
+path="/" <br />
+path="/welcomeTwo" <br />
+path="/register" <br />
+path="/login" <br />
+path="/goals" <br />
+path="/calendar" <br />
+path="/chart"<br />
 # i've treid to give the UI functionality in the give time.
