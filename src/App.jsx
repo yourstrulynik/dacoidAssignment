@@ -7,14 +7,13 @@ import Goals from "./pages/Goals";
 import Calendar from "./pages/Calendar";
 import Chart from "./pages/Chart";
 
-
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<WelcomeOne />} />
         <Route path="/welcomeTwo" element={<WelcomeTwo />} />
-        <Route path="/register" element={<Register/>} />
+        <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/goals" element={<Goals />} />
         <Route path="/calendar" element={<Calendar />} />
