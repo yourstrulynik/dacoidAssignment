@@ -1,9 +1,13 @@
 import React from 'react'
 import facebook from "../assets/facebook.svg";
 import google from "../assets/google.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
+  const navigate = useNavigate()
+  function handleClick(){
+    navigate('/goals')
+  }
   return (
     <div className="w-full h-screen flex flex-col p-8 gap-2">
       <form action="" className="w-full h-full flex flex-col gap-8">
@@ -30,7 +34,7 @@ export default function Login() {
         </div>
       </form>
       <div className="flex w-full mt-4">
-        <button className="bg-gradient-to-r from-[#7B91FF] to-[#89A1FF] w-full py-2 text-base text-white rounded-[12px] font-semibold">
+        <button onClick={handleClick} className="bg-gradient-to-r from-[#7B91FF] to-[#89A1FF] w-full py-2 text-base text-white rounded-[12px] font-semibold">
           Sign In
         </button>
       </div>
