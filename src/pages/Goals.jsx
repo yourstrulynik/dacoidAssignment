@@ -1,9 +1,13 @@
 // import React from 'react'
 import facebook from "../assets/facebook.svg";
 import google from "../assets/google.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Goals() {
+  const navigate = useNavigate()
+  const  handleClick= ()=>{
+    navigate('/calendar')
+  }
   return (
     <div className="w-full h-screen flex flex-col p-8 gap-8">
       <h2 className="text-xl font-semibold text-center ">
@@ -51,7 +55,7 @@ export default function Goals() {
         </div>
       </form>
       <div className="flex w-full mt-4">
-        <button className="bg-gradient-to-r from-[#7B91FF] to-[#89A1FF] w-full py-2 text-base text-white rounded-[12px] font-semibold">
+        <button onClick={handleClick} className="bg-gradient-to-r from-[#7B91FF] to-[#89A1FF] w-full py-2 text-base text-white rounded-[12px] font-semibold">
           Confirm
         </button>
       </div>
