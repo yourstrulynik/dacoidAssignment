@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const navigate = useNavigate()
-  function handleClick(){
+  const handleClick= ()=>{
     navigate('/goals')
   }
   return (
